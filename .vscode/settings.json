@@ -3,5 +3,12 @@
     "activityBar.background": "#203311",
     "titleBar.activeBackground": "#2D4718",
     "titleBar.activeForeground": "#F8FCF6"
+  },
+  "files.associations": {
+    "*.sqlbook": "sql",
+    "*.ndjson": "jsonl",
+    "*.dbclient-js": "javascript",
+    ".env*": "dotenv",
+    "iostream": "cpp"
   }
 }
