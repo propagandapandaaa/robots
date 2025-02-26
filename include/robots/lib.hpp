@@ -1,23 +1,25 @@
-#include "lib.hpp"
+#ifndef YOUR_MOM_HPP
+#define YOUR_MOM_HPP
 
-YourMom::YourMom() : rizzFactor(1337), gotThatDrip(true) {
-    // Spawns your mom with max sigma energy
-}
+#include <string>
 
-std::string YourMom::skibidiRoastRizz(std::string sigmaVibe) const {
-    if (sigmaVibe.empty()) {
-        return "Your mom so mid, she got ratio’d by a Roblox NPC.";
-    }
-    return "Your mom so " + sigmaVibe + ", she’s stuck in Ohio with no rizz.";
-}
+class YourMom
+{
+public:
+  YourMom();
 
-int YourMom::capNoCapMemeDrip(int ohioLevel) const {
-    if (ohioLevel <= 0) {
-        return -1; // No cap, she’s cooked if Ohio level ain’t positive
-    }
-    return ohioLevel * rizzFactor + (gotThatDrip ? 69420 : 0); // Skibidi multiplier
-}
+  // Drops a skibidi roast so fire it yeets you to the backrooms
+  std::string skibidiRoastRizz(std::string sigmaVibe) const;
 
-bool YourMom::isBussinFrFr() const {
-    return gotThatDrip && rizzFactor > 1000; // Gotta have that aura to be bussin’
-}
+  // Calculates how many brainrot memes your mom can sigma before she’s cooked
+  int capNoCapMemeDrip(int ohioLevel) const;
+
+  // Checks if your mom’s still got that skibidi toilet aura in 2025
+  bool isBussinFrFr() const;
+
+private:
+  int rizzFactor;   // How much aura she’s flexin’
+  bool gotThatDrip; // True if she’s skibidi-pilled
+};
+
+#endif // YOUR_MOM_HPP
