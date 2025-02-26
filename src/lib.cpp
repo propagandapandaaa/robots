@@ -9,7 +9,7 @@ std::string YourMom::skibidiRoastRizz(std::string sigmaVibe) const
 {
     if (sigmaVibe.empty())
     {
-        return "Your mom so mid, she got ratio’d by a Roblox NPC.";
+        return "Your mom sooo mid, she got ratio’d by a Roblox NPC.";
     }
     return "Your mom so " + sigmaVibe + ", she’s stuck in Ohio with no rizz.";
 }
