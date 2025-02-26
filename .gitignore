@@ -3,6 +3,8 @@
 /cmake-build-debug/
 /cmake-build-release/
 
+/.vscode/settings.json
+
 # Ignore CMake-generated files
 CMakeFiles/
 CMakeCache.txt
